@@ -3,6 +3,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 .header {
@@ -44,8 +45,15 @@
     font-weight: 100;
 }
 
+hr {
+    width: 100%;
+    margin: 10px;
+}
+
 .center-banner-container {
     flex: 2 100%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .center-banner {
@@ -65,14 +73,20 @@
     text-align: center;
     padding: 10px;
     align-self: flex-end;
+    max-width: 100%;
 }
 
 .featured-item-img {
     max-width: 100%;
-    height: 200px;
+    max-height: 200px;
+    object-fit: contain;
 }
 
 .featured-item-caption {
+    font-weight: 600;
+}
+
+.featured-item-link {
     font-weight: 400;
 }
 
